@@ -1,4 +1,4 @@
-<?php
+
 
 $config['mibs']['ASTERISK-MIB'] = 1;
 $config['mibs']['DIGIUM-MIB'] = 1;
