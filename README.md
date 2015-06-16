@@ -2,7 +2,7 @@
 Small module for polling asterisk metrics over snmp
 
 
-### INSTALL
+#### INSTALL
 ```
 git clone http://github.com/gusevaleksei/observium-asterisk-poller observium-asterisk-poller
 cd observium-asterisk-poller/
@@ -10,9 +10,9 @@ cp -rf includes /path/to/observium/
 cat config.add.php >> /path/to/observium/config.php
 ```
 
-### CUSTOMIZE HARD
+#### CUSTOMIZE HARD
 
-#### Add new graphs to "Graphs" tab of device
+##### Add new graphs to "Graphs" tab of device
 ```
 sed -i "s/^\$config\['graph_sections'\] = array(/\$config\['graph_sections'\] = array('asterisk',/" /path/to/observium/includes/definitions/graphtypes.inc.php
 ```
@@ -22,7 +22,7 @@ $config['graph_sections'] = array(...
 ```
 and add to it 'asterisk'
 
-#### Add new graphs to device "header"
+##### Add new graphs to device "header"
 
 Open /path/to/observium/includes/definitions/os.inc.php, find
 ```php
@@ -48,7 +48,7 @@ $config['os'][$os]['over'][3]['graph'] = "device_bits";
 $config['os'][$os]['over'][]['graph'] = "device_asterisk_processed";
 ```
 
-#### New graphs on device main page
+##### New graphs on device main page
 
 In file /path/to/observium/html/pages/device/overview.inc.php
 ```php
