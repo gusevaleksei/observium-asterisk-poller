@@ -2,7 +2,7 @@
 Observium poller for asterisk metrics and overview page widget
 
 
-#### INSTALL
+### Installation
 ###### Don't forget to update Asterisk and Digium MIB files in Observium's mibs directory
 
     git clone http://github.com/gusevaleksei/observium-asterisk-poller observium-asterisk-poller
@@ -10,9 +10,9 @@ Observium poller for asterisk metrics and overview page widget
     cp -rf includes /path/to/observium/
     cat config.add.php >> /path/to/observium/config.php
 
-#### CUSTOMIZE HARD
+### Additional customization
 
-##### Add new graphs to "Graphs" tab of device
+##### Add new graphs to device's "Graphs" tab
 
     sed -i "s/^\$config\['graph_sections'\] = array(/\$config\['graph_sections'\] = array('asterisk',/" \
     /path/to/observium/includes/definitions/graphtypes.inc.php
@@ -23,7 +23,7 @@ Or open /path/to/observium/includes/definitions/graphtypes.inc.php , find
 
 and add 'asterisk' to it
 
-##### Add new graphs to device "header"
+##### Add new graphs to device's "header"
 
 Open /path/to/observium/includes/definitions/os.inc.php, find
 
@@ -49,7 +49,7 @@ for example:
     $config['os'][$os]['over'][]['graph'] = "device_asterisk_processed";
 
 
-##### New graphs on device main page
+##### New graphs on device overview page
 
 In file /path/to/observium/html/pages/device/overview.inc.php
 
