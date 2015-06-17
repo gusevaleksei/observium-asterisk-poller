@@ -15,15 +15,15 @@ $config['graph_types']['device']['asterisk_channel_type'] = array(
   'num_fmt'   => '4.0',
   'no_mag'    => TRUE,
   'ds'        => array(
-    'ac_sip'  => array('label' => 'SIP',      'draw' => 'LINE', 'color' => '33ff33'),
-    'ac_iax2' => array('label' => 'IAX2',     'draw' => 'LINE', 'color' => 'ff3333'),
-//    'ac_agent' => array('label' => 'Agent', 'draw' => 'LINE', 'line' => FALSE, 'color' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_local' => array('label' => 'Local', 'draw' => 'LINE', 'line' => FALSE, 'color' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_phone' => array('label' => 'Phone', 'draw' => 'LINE', 'line' => FALSE, 'color' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_bridge' => array('label' => 'Bridge', 'draw' => 'LINE', 'line' => FALSE, 'color' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_console' => array('label' => 'Console', 'draw' => 'LINE', 'line' => FALSE, 'color' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_multicastrtp' => array('label' => 'MCRTP', 'draw' => 'LINE', 'line' => FALSE, 'color' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_confbridgerec' => array('label' => 'ConfBRec', 'draw' => 'LINE', 'line' => FALSE, 'color' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+    'ac_sip'  => array('label' => 'SIP',      'draw' => 'LINE', 'colour' => '33ff33'),
+    'ac_iax2' => array('label' => 'IAX2',     'draw' => 'LINE', 'colour' => 'ff3333'),
+//    'ac_agent' => array('label' => 'Agent', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+//    'ac_local' => array('label' => 'Local', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+//    'ac_phone' => array('label' => 'Phone', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+//    'ac_bridge' => array('label' => 'Bridge', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+//    'ac_console' => array('label' => 'Console', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+//    'ac_multicastrtp' => array('label' => 'MCRTP', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+//    'ac_confbridgerec' => array('label' => 'ConfBRec', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
   )
 );
 
