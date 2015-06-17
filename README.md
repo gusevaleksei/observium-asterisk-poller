@@ -3,14 +3,17 @@ Observium poller for asterisk metrics and overview page widget
 
 
 ### Installation
-###### Don't forget to update Asterisk and Digium MIB files in Observium's mibs directory
+###### Don't forget to update [Asterisk](https://wiki.asterisk.org/wiki/display/AST/Asterisk+MIB+Definitions) and [Digium](https://wiki.asterisk.org/wiki/display/AST/Digium+MIB+Definitions) MIB files in Observium's mibs directory
 
+    git clone http://github.com/gusevaleksei/observium-asterisk-poller /path/to/observium/
+    cd /path/to/observium/ && cat config.add.php >> config.php
+    or
     git clone http://github.com/gusevaleksei/observium-asterisk-poller observium-asterisk-poller
     cd observium-asterisk-poller/
-    cp -rf includes /path/to/observium/
+    cp -rf includes html /path/to/observium/
     cat config.add.php >> /path/to/observium/config.php
 
-### Additional customization
+### Additional Customizations
 
 ##### Add new graphs to device's "Graphs" tab
 
