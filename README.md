@@ -1,8 +1,9 @@
 ## observium-asterisk-poller
-Small module for polling asterisk metrics over snmp
+Observium poller for asterisk metrics and overview page widget
 
 
 #### INSTALL
+###### Don't forget to update Asterisk and Digium MIB files in Observium's mibs directory
 
     git clone http://github.com/gusevaleksei/observium-asterisk-poller observium-asterisk-poller
     cd observium-asterisk-poller/
