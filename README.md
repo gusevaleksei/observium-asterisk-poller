@@ -7,7 +7,7 @@ Observium poller for asterisk metrics and overview page widget
 
     git clone http://github.com/gusevaleksei/observium-asterisk-poller observium-asterisk-poller
     cd observium-asterisk-poller/
-    cp -rf includes html /path/to/observium/
+    cp -rf includes html mibs /path/to/observium/
     cat config.add.php >> /path/to/observium/config.php
 
 ### Additional Customizations
