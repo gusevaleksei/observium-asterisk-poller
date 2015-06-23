@@ -18,7 +18,11 @@ if ($device['type'] == 'voip')
   $graph_array['width']  = "512";
   $graph_array['to']     = $config['time']['now'];
   $graph_array['device'] = $device['device_id'];
-  $graph_array['from']   = $config['time']['day'];
+  if (isset($config['overview_asterisk']['diff_from'])) {
+    $graph_array['from'] = $config['time']['now'] - $config['overview_asterisk']['diff_from'];
+  } else {
+    $graph_array['from'] = $config['time']['day'];
+  }
   $graph_array['legend'] = "no";
 
   echo('<table class="table table-condensed table-striped table-bordered">');
