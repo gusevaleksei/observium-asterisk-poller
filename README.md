@@ -60,3 +60,4 @@ In file /path/to/observium/html/pages/device/overview.inc.php
     include("overview/ports.inc.php");
 
 
+includes/definitions.inc.php
