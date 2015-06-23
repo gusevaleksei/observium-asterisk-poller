@@ -60,4 +60,11 @@ In file /path/to/observium/html/pages/device/overview.inc.php
     include("overview/ports.inc.php");
 
 
-includes/definitions.inc.php
+##### Add custom device type
+
+In /path/to/observium/includes/definitions.inc.php
+
+    $i++;
+    $config['device_types'][$i]['text'] = 'Gateways';
+    $config['device_types'][$i]['type'] = 'gateway';
+    $config['device_types'][$i]['icon'] = 'oicon-server';
