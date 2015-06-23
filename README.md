@@ -1,5 +1,5 @@
 ## observium-asterisk-poller
-Observium poller for asterisk metrics and overview page widget
+Observium poller for asterisk metrics and overview page widget (add Astrisk as device and work without unix agent)
 
 
 ### Installation
