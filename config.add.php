@@ -15,15 +15,15 @@ $config['graph_types']['device']['asterisk_channel_type'] = array(
   'num_fmt'   => '4.0',
   'no_mag'    => TRUE,
   'ds'        => array(
-    'ac_sip'  => array('label' => 'SIP',      'draw' => 'LINE', 'colour' => '33ff33'),
-    'ac_iax2' => array('label' => 'IAX2',     'draw' => 'LINE', 'colour' => 'ff3333'),
-//    'ac_agent' => array('label' => 'Agent', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_local' => array('label' => 'Local', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_phone' => array('label' => 'Phone', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_bridge' => array('label' => 'Bridge', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_console' => array('label' => 'Console', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_multicastrtp' => array('label' => 'MCRTP', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
-//    'ac_confbridgerec' => array('label' => 'ConfBRec', 'draw' => 'LINE', 'line' => FALSE, 'colour' => 'green', 'rra_min' => FALSE, 'rra_max' => FALSE),
+    'ac_sip'     => array('label' => 'SIP',     'draw' => 'LINE2', 'colour' => '22aa22'),
+    'ac_iax2'    => array('label' => 'IAX2',    'draw' => 'LINE2', 'colour' => 'aa2222'),
+    'ac_agent'   => array('label' => 'Agent',   'draw' => 'LINE2', 'colour' => '555555'),
+    'ac_local'   => array('label' => 'Local',   'draw' => 'LINE2', 'colour' => '555555'),
+    'ac_phone'   => array('label' => 'Phone',   'draw' => 'LINE2', 'colour' => '555555'),
+    'ac_bridge'  => array('label' => 'Bridge',  'draw' => 'LINE2', 'colour' => '2222aa'),
+    'ac_console' => array('label' => 'Console', 'draw' => 'LINE2', 'colour' => '555555'),
+    'ac_multicastrtp'  => array('label' => 'MCRTP',    'draw' => 'LINE2', 'colour' => '555555'),
+    'ac_confbridgerec' => array('label' => 'ConfBrRec', 'draw' => 'LINE2', 'colour' => 'aa5522'),
   )
 );
 
@@ -73,4 +73,4 @@ $config['graph_types']['device']['asterisk_processed'] = array(
   )
 );
 
-
+$config['overview_asterisk']['diff_from'] = 21600;
